@@ -5,23 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prabhsharan Singh</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #1e1e1e;
+        }
+        nav h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+            text-align: left;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 1rem auto;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            color: #ffffff;
+            background-color: #ff9800;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <nav>
-        <div class="container">
-            <h1>Prabhsharan Singh</h1>
-            <ul>
-                <li><a href="https://github.com/prabhsharan">GitHub</a></li>
-                <li><a href="resume.pdf" download>Download Resume</a></li>
-            </ul>
-        </div>
+        <h1>Prabhsharan Singh</h1>
+        <ul>
+            <li><a href="https://drive.google.com/uc?export=download&id=1wq5PvQi5owyzg8e8RiCp35xA-3wzT06l" class="button" download>Download Resume</a></li>
+        </ul>
     </nav>
     
-    <header>
-        <div class="container">
-            <h2>Hi, I’m Prabhsharan.</h2>
-            <p>I’m a Software Engineer passionate about building impactful solutions and learning through the process.</p>
-        </div>
-    </header>
+    <div class="container">
+        <img src="https://ik.imagekit.io/qu20t6lqgz/IMG_20230825_102544258~3%20(1).jpg?updatedAt=1741377929032" alt="Prabhsharan Singh Profile" class="profile-img">
+        <h2>Hi, I’m Prabhsharan.</h2>
+        <p>I’m a Software Engineer passionate about building impactful solutions and learning through the process.</p>
+        <p>I discovered my love for programming during my undergraduate years and developed a passion for startups and building products during my first internship. I began with frontend development, transitioned to fullstack, and now focus primarily on backend development. Currently, I’m a Founding Engineer at Jugyah, India’s fastest-growing technology-enabled residential brokerage.</p>
+        <p>Over the years, I’ve had the privilege of working with early-stage startups and collaborating closely with founders. This experience has shaped my product-focused approach to development, enabling me to:</p>
+        <ul>
+            <li>Consider the broader product-wide impacts of features.</li>
+            <li>Design solutions that create net-positive outcomes for all stakeholders.</li>
+            <li>Anticipate and plan for feature scalability and extensibility.</li>
+            <li>Keep my fellow developers and mentees excited about the work we’re doing.</li>
+        </ul>
+        <p>I’m also deeply interested in personal finance, health, and music. On the side, I’m a noob barista, experimenting with brewing the perfect cup of coffee. You can often find me obsessing over something new and fascinating.</p>
+        <p>You can connect with me on <a href="https://www.linkedin.com/in/prabhsharan-singh-sandhu/" target="_blank" style="color:#ff9800;">LinkedIn</a>.</p>
+    </div>
 </body>
 </html>
